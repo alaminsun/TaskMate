@@ -1,12 +1,10 @@
-
-import Logo from '../assets/logo.png'
-import './header.css'
-
+import Logo from "../assets/logo.png"
 
 export const Header = () => {
   return (
-    <div>
-        <img className='logo' src={Logo} alt='' />
-    </div>
+    <header>
+        <img src={Logo} alt="" />
+        <a href="/">Home</a>
+    </header>
   )
 }
